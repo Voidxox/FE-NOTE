@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:'/FE-NOTE/',
   title: "Void的文档",
   description: "A VitePress Site",
   themeConfig: {
