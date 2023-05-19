@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "Void文档"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Void"
+  text: ""
+  tagline: 
   actions:
     - theme: brand
       text: 使用
-      link: /markdown-examples
+      link: /note
     - theme: alt
-      text: 文档
+      text: NOTE
       link: /note
 
 # features:
@@ -21,4 +21,5 @@ hero:
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 #   - title: Feature C
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-# ---
+#
+---
