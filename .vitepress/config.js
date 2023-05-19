@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base:'/FE-NOTE/',
   title: "Void的文档",
-  description: "A VitePress Site",
+  description: "",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // nav: [
@@ -16,7 +16,7 @@ export default defineConfig({
       {
         text: '前端',
         items: [
-          { text: 'learn', link: '/fe' },
+          { text: 'learn', link: '../docs/fe' },
           // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
