@@ -2,21 +2,21 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:'/FE-NOTE/',
+  // base:'',
   title: "Void的文档",
   description: "",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    // nav: [
-    //   { text: 'Home', link: '/' },
-    //   { text: 'Examples', link: '/markdown-examples' }
-    // ],
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Examples', link: '/markdown-examples' }
+    ],
 
     sidebar: [
       {
         text: '前端',
         items: [
-          { text: 'learn', link: '../docs/fe' },
+          { text: 'learn', link: './docs/fe' },
           // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
