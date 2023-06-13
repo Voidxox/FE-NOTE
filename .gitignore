@@ -1,26 +1,2 @@
-README.md
-target/
-
-**/node_modules/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-/.history/
-### VS Code ###
-.vscode/
+node_modules
+/docs/.vitepress/dist
