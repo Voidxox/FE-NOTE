@@ -1,11 +1,8 @@
 
 <script setup>
-import { onMounted } from "vue";
-import "ml-heatmap/dist/style.css";
-import "gitalk/dist/gitalk.css";
-import Gitalk from "gitalk";
+import BackGround from "./BackGround.vue";
+import { onMounted, defineComponent } from "vue";
 const COLORS = ["#FFB3B3", "#FFDBA4", "#FFE9AE", "#C1EFFF"];
-
 onMounted(() => {
   // if (typeof window !== undefined) {
   //   console.log(window, "window");
@@ -28,18 +25,17 @@ onMounted(() => {
   // }
 });
 </script>
-
 <template>
   <div class="home-page">
-    <div class="home-top">
-      <h1 class="name">littler</h1>
-      <p class="tagline">littler是一只聪明可爱的猫.</p>
-    </div>
-    <div class="docs-wrap">
-      <!-- <DocList /> -->
-    </div>
+    <BackGround></BackGround>
   </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
+.home-page {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
 </style>

@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress'
-
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default {
+  enhanceApp({ app }) {
+  },
   base:'/note',
   lang: 'zh-CN',  
   title: "Void",
@@ -25,4 +26,4 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/Voidxox' }
     ]
   }
-})
+}
