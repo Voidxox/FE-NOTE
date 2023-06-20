@@ -1,13 +1,23 @@
 {
-  "hash": "142a7ce8",
-  "browserHash": "3c65d38f",
+  "hash": "4922ec07",
+  "browserHash": "5827b92d",
   "optimized": {
     "vue": {
-      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../../node_modules/.pnpm/vue@3.3.4/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "9f732170",
+      "fileHash": "7db9b8b0",
+      "needsInterop": false
+    },
+    "vue-waterfall-plugin-next": {
+      "src": "../../../../node_modules/.pnpm/vue-waterfall-plugin-next@2.2.1_vue@3.3.4/node_modules/vue-waterfall-plugin-next/dist/my-lib.es.js",
+      "file": "vue-waterfall-plugin-next.js",
+      "fileHash": "093a5b19",
       "needsInterop": false
     }
   },
-  "chunks": {}
+  "chunks": {
+    "chunk-JKV2V35Q": {
+      "file": "chunk-JKV2V35Q.js"
+    }
+  }
 }

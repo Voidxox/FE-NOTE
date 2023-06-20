@@ -1,8 +1,6 @@
 import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default {
-  enhanceApp({ app }) {
-  },
   base:'/note',
   lang: 'zh-CN',  
   title: "Void",
@@ -11,16 +9,9 @@ export default {
     logo: '/logo.jpg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/nav/index' },
-      { text: 'Guide', link: '/guide/' },
-			{
-				text: 'Dropdown Menu',
-				items: [
-					{ text: 'Item A', link: '/item-1' },
-					{ text: 'Item B', link: '/item-2' },
-					{ text: 'Item C', link: '/item-3' },
-				],
-			},
+      { text: 'Home', link: '/' },
+      { text: 'CODE-TEST', link: '/nav/' },
+      { text: 'NOTE', link: '/guide/note' },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Voidxox' }
