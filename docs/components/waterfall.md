@@ -1,7 +1,7 @@
 
 <script setup>
-import CodeTest from "./codeTest.vue";
+import waterfall from "./Waterfall/demo.vue";
 </script>
-<CodeTest />
+<waterfall />
 <style scoped lang="scss">
 </style>

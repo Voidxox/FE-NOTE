@@ -1,9 +1,3 @@
-<!--
- * @Date: 2023-03-01 15:43:25
- * @LastEditors: Yaowen Liu
- * @LastEditTime: 2023-04-10 12:45:03
- * @FilePath: /vue3-waterfall/example/components/WaterfallList.vue
--->
 <template>
   <div style="width: 100%">
     <Waterfall
@@ -34,15 +28,15 @@
             />
           </div>
           <div class="px-4 pt-2 pb-4 border-t border-t-gray-800">
-            <h2 class="pb-4 text-gray-50 group-hover:text-yellow-300">
+            <span class="pb-4 text-gray-50 group-hover:text-yellow-300">
               {{ item.title }}
-            </h2>
+            </span>
             <div
               class="pt-3 flex justify-between items-center border-t border-t-gray-600 border-opacity-50"
             >
               <div class="text-gray-50">$ {{ item.price }}</div>
               <div>
-                <button 
+                <button
                   class="px-3 h-7 rounded-full bg-red-500 text-sm text-white shadow-lg transition-all duration-300 hover:bg-red-600"
                   @click.stop="handleDelete(item, index)"
                 >
@@ -2811,6 +2805,10 @@ function handleLoadMore() {
     },
   ];
   list.value.push(...res);
+  list.value = list.value.map((item) => {
+    item.imgSrc = item.images[0].src;
+    return item;
+  });
   console.log(list.value, "list");
   page.value += 1;
   // getList({

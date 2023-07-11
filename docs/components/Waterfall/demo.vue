@@ -7,7 +7,7 @@
 
 <script setup>
 import { reactive, ref } from "vue";
-import WaterFallList from "../.vitepress/components/WaterfallList/index.vue";
+import WaterFallList from "./index.vue";
 const options = reactive({
   // 唯一key值
   rowKey: "id",

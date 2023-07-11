@@ -1,6 +1,6 @@
 
 <script setup>
-import BackGround from "./BackGround.vue";
+import BackGround from "./components/BackGround.vue";
 import { onMounted, defineComponent } from "vue";
 const COLORS = ["#FFB3B3", "#FFDBA4", "#FFE9AE", "#C1EFFF"];
 onMounted(() => {});

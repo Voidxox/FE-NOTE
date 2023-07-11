@@ -4,4 +4,5 @@ module.exports = {
 		'./docs/**/*.md',
 		'./docs/**/*.{js,ts,vue}',
 	],
+	important:true
 }
